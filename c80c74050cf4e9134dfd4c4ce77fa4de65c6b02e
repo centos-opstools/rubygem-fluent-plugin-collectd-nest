@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa98f980_86ee2c21",
+        "filename": "rubygem-fluent-plugin-collectd-nest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 395
+      },
+      "writtenOn": "2017-04-04T19:04:17Z",
+      "side": 1,
+      "message": "We removed it only for records with one value.",
+      "range": {
+        "startLine": 71,
+        "startChar": 28,
+        "endLine": 71,
+        "endChar": 33
+      },
+      "revId": "c80c74050cf4e9134dfd4c4ce77fa4de65c6b02e",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
