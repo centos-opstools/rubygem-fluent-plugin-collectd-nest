@@ -2,7 +2,7 @@
 %global gem_name fluent-plugin-collectd-nest
 
 Name: rubygem-%{gem_name}
-Version: 0.1.3
+Version: 0.1.4
 Release: 1%{?dist}
 Summary: Output filter plugin to rewrite Collectd JSON output to nested json
 Group: Development/Languages
@@ -67,6 +67,9 @@ cp -a .%{gem_dir}/* \
 %{gem_instdir}/test
 
 %changelog
+* Thu Jun 15 2017 Rich Megginson <rmeggins@redhat.com> - 0.1.4-1
+- updated field as a string and not an array
+
 * Mon Apr  3 2017 Rich Megginson <rmeggins@redhat.com> - 0.1.3-1
 - Remove dsname from nested value field
 
